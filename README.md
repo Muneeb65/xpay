@@ -21,8 +21,8 @@ pip install -r requirements.txt
 
 ```bash
 export XPAY_BASE_URL="https://xpay-app-stage.postexglobal.com/"
-export XPAY_API_KEY="6d61204b9741ba6076d51e061cfb63355dc49a35774b7061bbbc9ff45d35632b"
-export XPAY_ACCOUNT_ID="09984c32f2f924e2"
+export XPAY_API_KEY="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+export XPAY_ACCOUNT_ID="XXXXXXXXXXXXXXXXXXXXXXXXX"
 export XPAY_SIGNATURE_KEY="your_signature_key"
 ```
 
