@@ -103,11 +103,11 @@ if __name__ == "__main__":
     import os
 
     BASE_URL = "https://xstak-pay-stg.xstak.com"
-    API_KEY = "xpay_sk_test_d547f99a6bc317a32bd95fc18e1591a946f8cf44dcba409c81b48fdd16c22c6d"
-    ACCOUNT_ID = "09984c32f2f924e2"
+    API_KEY = "xpay_sk_test_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+    ACCOUNT_ID = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     # Use the API Signature Secret (HMAC key) from dashboard; this value in the
     # repo may be a publishable key — replace with the hex signature secret.
-    SIGNATURE_KEY = "6d61204b9741ba6076d51e061cfb63355dc49a35774b7061bbbc9ff45d35632b"
+    SIGNATURE_KEY = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
     sample_payload = {
         "amount": 500,
