@@ -1,0 +1,102 @@
+Creating Payment Intent...
+{ 'data': { '_id': 'xpay_pi_26c106647fe6865b8331541a631a7839f4647339b0760ef9077574761ed16312',
+            'amount': 500,
+            'bank_response': {},
+            'billingAddress': {},
+            'capture_method': 'automatic',
+            'checkout_page_url': None,
+            'created_at': '2026-03-27T11:21:38.035Z',
+            'currency': 'PKR',
+            'customer': { 'email': 'jane.doe@example.com',
+                          'name': 'Jane Doe',
+                          'phone': '09123456789'},
+            'description': '',
+            'encryptionKey': '-----BEGIN PUBLIC KEY-----\n'
+                             'MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3EWHI2JTfcJtnk4/4nDw\n'
+                             'OOK4ICQur4gMw9I5fNhxyK/M8MqciMztJFamlSQa/HVGQrpJhNUEytOzGVBseiiR\n'
+                             '1IgqhpbGvMqmfuFCyoCMAlgxcTRcmYyvVKOZQSFxKNn2Pn9m2+wUXEmOvaCRvK+B\n'
+                             'NBz7f+thDgAyRJrnxLFRVOkoHCEMRCNzGw7J0+sLLntKM9ZCC+xkAwml1/S9lKPX\n'
+                             'oU9W5/eMoBC95a1gerQjksORxAT1EBht1SoScOIG3e6tmSBuswAmVRbGIZUG43ss\n'
+                             'jZuqwcWU8k74Vi95iKiTEsM5OR1yQoC6ubFfYYwBFLKC3c/QRImU2WVLePsGuzd9\n'
+                             'VQIDAQAB\n'
+                             '-----END PUBLIC KEY-----\n',
+            'html_response': {'hidden': True},
+            'last_payment_response': {'token': None},
+            'metadata': {'order_reference': 'XPAYxFEfNvWFETyoS1H'},
+            'object_name': 'payment_intent',
+            'payment_method_types': 'card',
+            'pi_client_secret': 'xpay_pi_26c106647fe6865b8331541a631a7839f4647339b0760ef9077574761ed16312_cs_6125e51e143de897135dd21520711573af4429c8bb7a3352641fc34a0523b6a1',
+            'pi_status': 'requires_payment_method',
+            'pm_token': '',
+            'refund': {'refund_object_id': None, 'refunded_amount': 0},
+            'return_url': None,
+            'routing_rules_history': [],
+            'shipping': { 'address1': '',
+                          'address2': '',
+                          'city': '',
+                          'country': '',
+                          'firstName': '',
+                          'lastName': '',
+                          'phone': '',
+                          'province': '',
+                          'shipping_method': '',
+                          'zip': ''},
+            'subscription': {},
+            'token': None,
+            'updated_at': '2026-03-27T11:21:38.036Z'},
+  'message': 'Request processed successfully.',
+  'responseStatus': 'OK',
+  'success': True}
+
+Retrieving Payment Intent... xpay_pi_26c106647fe6865b8331541a631a7839f4647339b0760ef9077574761ed16312
+{ 'data': { '_id': 'xpay_pi_26c106647fe6865b8331541a631a7839f4647339b0760ef9077574761ed16312',
+            'amount': 500,
+            'bank_response': {},
+            'billingAddress': {},
+            'capture_method': 'automatic',
+            'checkout_page_url': None,
+            'created_at': '2026-03-27T11:21:38.035Z',
+            'currency': 'PKR',
+            'customer': { 'email': 'jane.doe@example.com',
+                          'name': 'Jane Doe',
+                          'phone': '09123456789'},
+            'description': '',
+            'encryptionKey': '-----BEGIN PUBLIC KEY-----\n'
+                             'MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3EWHI2JTfcJtnk4/4nDw\n'
+                             'OOK4ICQur4gMw9I5fNhxyK/M8MqciMztJFamlSQa/HVGQrpJhNUEytOzGVBseiiR\n'
+                             '1IgqhpbGvMqmfuFCyoCMAlgxcTRcmYyvVKOZQSFxKNn2Pn9m2+wUXEmOvaCRvK+B\n'
+                             'NBz7f+thDgAyRJrnxLFRVOkoHCEMRCNzGw7J0+sLLntKM9ZCC+xkAwml1/S9lKPX\n'
+                             'oU9W5/eMoBC95a1gerQjksORxAT1EBht1SoScOIG3e6tmSBuswAmVRbGIZUG43ss\n'
+                             'jZuqwcWU8k74Vi95iKiTEsM5OR1yQoC6ubFfYYwBFLKC3c/QRImU2WVLePsGuzd9\n'
+                             'VQIDAQAB\n'
+                             '-----END PUBLIC KEY-----\n',
+            'html_response': {'hidden': True},
+            'last_payment_response': {'token': None},
+            'metadata': {'order_reference': 'XPAYxFEfNvWFETyoS1H'},
+            'object_name': 'payment_intent',
+            'payment_method_types': 'card',
+            'pi_client_secret': 'xpay_pi_26c106647fe6865b8331541a631a7839f4647339b0760ef9077574761ed16312_cs_6125e51e143de897135dd21520711573af4429c8bb7a3352641fc34a0523b6a1',
+            'pi_status': 'requires_payment_method',
+            'pm_token': '',
+            'refund': {'refund_object_id': None, 'refunded_amount': 0},
+            'return_url': None,
+            'routing_rules_history': [],
+            'shipping': { 'address1': '',
+                          'address2': '',
+                          'city': '',
+                          'country': '',
+                          'firstName': '',
+                          'lastName': '',
+                          'phone': '',
+                          'province': '',
+                          'shipping_method': '',
+                          'zip': ''},
+            'subscription': {},
+            'token': None,
+            'updated_at': '2026-03-27T11:21:38.036Z'},
+  'message': 'Request processed successfully.',
+  'responseStatus': 'OK',
+  'success': True}
+
+Capturing Payment Intent (partial amount = 10)...
+Capture failed: 500 Server Error: Internal Server Error for url: https://xstak-pay-stg.xstak.com/public/v1/payment/intent/capture?pi_client_secret=xpay_pi_26c106647fe6865b8331541a631a7839f4647339b0760ef9077574761ed16312_cs_6125e51e143de897135dd21520711573af4429c8bb7a3352641fc34a0523b6a1
